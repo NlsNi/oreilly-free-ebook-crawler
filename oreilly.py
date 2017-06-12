@@ -15,7 +15,7 @@ browser_header = {
 
 def get_url():
     save_path = 'D:/tmp'
-    category = ['business', 'data', 'iot', 'programming', 'security', 'web-platform', 'webops-perf']
+    category = ['business', 'data', 'iot', 'programming', 'security', 'web-platform', 'webops']
     category_num = len(category)
     for i in range(0, category_num):
         url = 'http://www.oreilly.com/' + category[i] + '/free/'
